@@ -5,6 +5,7 @@ import {
   ApiInternalServerErrorResponse,
   ApiOperation,
   ApiTags,
+  ApiUnauthorizedResponse,
   ApiUnprocessableEntityResponse,
 } from '@nestjs/swagger';
 
@@ -14,6 +15,7 @@ import { CreateSmsDto } from './dtos';
 
 @ApiTags('sms')
 @ApiInternalServerErrorResponse({ description: 'Internal server error.' })
+@ApiUnauthorizedResponse({ description: 'Unauthorized.', type: CreateSmsError })
 @Controller('sms')
 export class SmsController {
   constructor(private readonly createSms: CreateSms) {}

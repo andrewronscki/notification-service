@@ -1,9 +1,10 @@
 import { ValidationPipe, VersioningType } from '@nestjs/common';
-import { NestFactory } from '@nestjs/core';
+import { NestFactory, Reflector } from '@nestjs/core';
 
 import { AppModule, HttpExceptionFilter } from '@/shared/presenters';
 
 import { documentation } from './documentation';
+import { PermissionsGuard } from './auth/presenters';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
@@ -13,6 +14,7 @@ async function bootstrap() {
     prefix: 'api/v',
     defaultVersion: '1',
   });
+  app.useGlobalGuards(new PermissionsGuard());
   app.useGlobalFilters(new HttpExceptionFilter());
   app.useGlobalPipes(
     new ValidationPipe({
