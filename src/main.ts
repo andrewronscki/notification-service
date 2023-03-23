@@ -1,5 +1,5 @@
 import { ValidationPipe, VersioningType } from '@nestjs/common';
-import { NestFactory, Reflector } from '@nestjs/core';
+import { NestFactory } from '@nestjs/core';
 
 import { AppModule, HttpExceptionFilter } from '@/shared/presenters';
 
