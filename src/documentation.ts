@@ -6,8 +6,9 @@ export const documentation = async (app: INestApplication) => {
   const config = new DocumentBuilder()
     .setTitle('Notification Service')
     .setDescription('The notification service API description')
-    .setVersion('1.0')
+    .setVersion('1.0.0')
     .addTag('healthcheck')
+    .addTag('sms')
     .build();
 
   const redocOptions: RedocOptions = {
