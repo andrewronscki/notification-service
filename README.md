@@ -129,7 +129,7 @@ A estrutura do projeto segue este modelo:
 <a href="https://andrewronscki.com" style="margin: 0px; padding:0;">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/32884775?v=4" width="100px;" alt=""/>
  <br />
- <sub><b>André Wronscki Ricardo</b></sub></a> <a href="https://andrewronscki.com" title="André Wronscki">🚀</a>
+ <sub><b>André Wronscki Ricardo</b></sub></a> <a href="https://andrewronscki.com" title="André Wronscki">🚀<p><sub>Tech Lead na 4all</sub></p></a>
  <br />
  <br />
 
