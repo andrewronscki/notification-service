@@ -14,7 +14,7 @@ export const documentation = async (app: INestApplication) => {
     title: 'Notification Service',
     logo: {
       url: 'https://redocly.github.io/redoc/petstore-logo.png',
-      backgroundColor: '#0492C9',
+      backgroundColor: '#FFF',
       altText: 'notification service Logo',
     },
     sortPropsAlphabetically: true,
