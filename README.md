@@ -1,77 +1,144 @@
+
+<h1 align="center">
+     📨 <a href="#" alt="site do places"> Notification Service</a>
+</h1>
+
+<h3 align="center">
+    🔊 Seu serviço de notificação por SMS, Email, WhatsApp, Telegram, Voz. 💚
+</h3>
+
+<div align="center">
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+<a><img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/andrewronscki/places-serverside"></a>
+<a href='https://coveralls.io/github/andrewronscki/places-serverside?branch=main'><img src='https://coveralls.io/repos/github/andrewronscki/places-serverside/badge.svg?branch=main' alt='Coverage Status' /></a>
+<a><img alt="GitHub" src="https://img.shields.io/github/license/andrewronscki/places-serverside"></a>
+<a><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/andrewronscki/places-serverside"></a>
+<a><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/andrewronscki/places-serverside"></a>
+<a><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/andrewronscki/places-serverside"></a>
 </p>
+</div>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+Tabela de conteúdos
+=================
+<!--ts-->
+   * [Sobre o projeto](#-sobre-o-projeto)
+   * [Funcionalidades](#%EF%B8%8F-funcionalidades)
+   * [Como executar o projeto](#-como-executar-o-projeto)
+     * [Pré-requisitos](#pré-requisitos)
+     * [Rodando o Backend (servidor)](#-rodando-o-backend-servidor)
+   * [Tecnologias](#-tecnologias)
+     * [Server](#server--nestjs)
+   * [Estrutura do Projeto](#-estrutura-do-projeto)
+   * [Autor](#-autor)
+   * [Licença](#-licença)
+<!--te-->
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## 💻 Sobre o projeto
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+ 📨 Notification Service - é um serviço de notificação que pode ser utilizado para enviar SMS, Email, mensagem no WhatsApp, no Telegram e também notificar por voz.
 
-## Installation
+
+É uma API rest que possui endpoints possibilitando fazer a notificação por diversas formas.
+
+Swagger da aplicação disponível em: [https://notification-service-u4ts.onrender.com/docs](https://notification-service-u4ts.onrender.com/docs)
+
+<div align="center">
+  <img alt="Swagger Notification Service" src="./swagger.png">
+</div>
+
+---
+
+## ⚙️ Funcionalidades
+
+- [x] Notification:
+  - [x] SMS
+  - [ ] Email
+  - [ ] WhatsApp
+  - [ ] Telegram
+  - [ ] Voz
+
+---
+
+## 🚀 Como executar o projeto
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [NestJS](https://nestjs.com/).
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+#### 🎲 Rodando o Backend (servidor)
 
 ```bash
-$ yarn
-```
 
-or
+# Clone este repositório
+$ git clone git@github.com:andrewronscki/notification-service.git
 
-```bash
-npm install
-```
+# Acesse a pasta do projeto no terminal/cmd
+$ cd notification-service
 
-## Running the app
+# Instale as dependências
+$ npm install
 
-```bash
-# development
-$ npm run start
+# Crie um arquivo .env com o conteúdo do .env.example
+$ cp .env .env.example
 
-# watch mode
+# Faça as alterações no arquivo .env caso tenha necessidade
+
+# Execute a aplicação
 $ npm run start:dev
 
-# production mode
-$ npm run start:prod
+# O servidor inciará na porta:3000 - acesse http://localhost:3000/docs
+
 ```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Architecture
-
-Para compor a arquitetura do projeto, decidimos utilizar conceitos de **Domain-Driving Design** e do **Clean Architecture** tragos pelas literaturas de _Robert C. Martin - Clean Architecture_ e de _Eric Evans - Domain-Driven Design_, dividiremos as camadas das aplicações em:
-
-- **presenters** camada em azul que é a mais superficial da imagem abaixo, camada onde terá os controllers da aplicação;
-- **infra** camada em verde que será responsável por se conectar com o banco de dados, ou com api’s externas;
-- **data** camada em vermelho que será responsável por conter os casos de usos da aplicação;
-- **domain** camada em amarelo que será responsável por conter as entidades, interfaces e tipos da aplicação.
 <p align="center">
-  <img src="https://teste-andrewronscki.s3.amazonaws.com/archtecture.png" width="600" alt="Archtecture" />
+  <a href="https://github.com/andrewronscki/notification-service/blob/main/insomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
+
+---
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+#### [](https://github.com/andrewronscki/places-serverside)**Server** ([NestJS](https://nodejs.org/en/))
+-   **[Typescript](https://www.typescriptlang.org/)**
+-   **[Jest](https://jestjs.io/pt-BR/)**
+-   **[dotENV](https://github.com/motdotla/dotenv)**
+-   **[aws-sdk](https://www.npmjs.com/package/aws-sdk)**
+
+> Veja o arquivo  [package.json](https://github.com/andrewronscki/notification-service/blob/main/package.json)
+
+---
+
+## 🛠 Estrutura do Projeto
+A estrutura do projeto segue este modelo:
+- O sistema deve ser desenvolvido utilizando os ensinamentos do Clean Architecture e Domain-Driven Design, separando as camadas em domain, data, infra e presentation;
+- O sistema deve ser agrupado por módulos independentes;
+- O desenvolvimento dos casos de uso deve ser orientado a testes (TDD).
+
+<div align="center">
+  <img alt="Arquitetura da Api" src="./arquitetura-software.png">
+</div>
+
+---
+
+## 🦸 Autor
+
+<a href="https://andrewronscki.com" style="margin: 0px; padding:0;">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/32884775?v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>André Wronscki Ricardo</b></sub></a> <a href="https://andrewronscki.com" title="André Wronscki">🚀</a>
+ <br />
+ <br />
+
+
+[![Linkedin Badge](https://img.shields.io/badge/-André-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/andr%C3%A9-wronscki-ricardo-13694bb7/)](https://www.linkedin.com/in/andr%C3%A9-wronscki-ricardo-13694bb7/)
+[![Gmail Badge](https://img.shields.io/badge/-andrewronscki@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:andrewronscki@gmail.com)](mailto:andrewronscki@gmail.com)
+
+---
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE.md).
