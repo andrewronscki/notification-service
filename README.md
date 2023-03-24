@@ -9,8 +9,8 @@
 
 <div align="center">
 <p align="center">
-<a><img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/andrewronscki/places-serverside"></a>
-<a href='https://coveralls.io/github/andrewronscki/places-serverside?branch=main'><img src='https://coveralls.io/repos/github/andrewronscki/places-serverside/badge.svg?branch=main' alt='Coverage Status' /></a>
+<a><img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/andrewronscki/notification-service"></a>
+[![Coverage Status](https://coveralls.io/repos/github/andrewronscki/notification-service/badge.svg?branch=main)](https://coveralls.io/github/andrewronscki/notification-service?branch=main)
 <a><img alt="GitHub" src="https://img.shields.io/github/license/andrewronscki/places-serverside"></a>
 <a><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/andrewronscki/places-serverside"></a>
 <a><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/andrewronscki/places-serverside"></a>
@@ -136,7 +136,6 @@ A estrutura do projeto segue este modelo:
 
 [![Linkedin Badge](https://img.shields.io/badge/-André-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/andr%C3%A9-wronscki-ricardo-13694bb7/)](https://www.linkedin.com/in/andr%C3%A9-wronscki-ricardo-13694bb7/)
 [![Gmail Badge](https://img.shields.io/badge/-andrewronscki@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:andrewronscki@gmail.com)](mailto:andrewronscki@gmail.com)
-[![Coverage Status](https://coveralls.io/repos/github/andrewronscki/notification-service/badge.svg?branch=main)](https://coveralls.io/github/andrewronscki/notification-service?branch=main)
 
 ---
 
