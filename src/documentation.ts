@@ -12,10 +12,8 @@ export const documentation = async (app: INestApplication) => {
 
   const redocOptions: RedocOptions = {
     title: 'Notification Service',
-    favicon:
-      'https://irp.cdn-website.com/8b76e94f/site_favicon_16_1651232151943.ico',
     logo: {
-      url: 'https://lirp.cdn-website.com/8b76e94f/dms3rep/multi/opt/logo_4all_meet_future2-1920w.png',
+      url: 'https://redocly.github.io/redoc/petstore-logo.png',
       backgroundColor: '#0492C9',
       altText: 'notification service Logo',
     },
