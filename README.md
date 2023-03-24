@@ -119,7 +119,7 @@ A estrutura do projeto segue este modelo:
 - O desenvolvimento dos casos de uso deve ser orientado a testes (TDD).
 
 <div align="center">
-  <img alt="Arquitetura da Api" src="./arquitetura-software.png">
+  <img alt="Arquitetura da Api" src="https://teste-andrewronscki.s3.amazonaws.com/archtecture.png">
 </div>
 
 ---
