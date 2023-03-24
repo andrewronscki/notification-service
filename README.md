@@ -136,6 +136,7 @@ A estrutura do projeto segue este modelo:
 
 [![Linkedin Badge](https://img.shields.io/badge/-André-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/andr%C3%A9-wronscki-ricardo-13694bb7/)](https://www.linkedin.com/in/andr%C3%A9-wronscki-ricardo-13694bb7/)
 [![Gmail Badge](https://img.shields.io/badge/-andrewronscki@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:andrewronscki@gmail.com)](mailto:andrewronscki@gmail.com)
+[![Coverage Status](https://coveralls.io/repos/github/andrewronscki/notification-service/badge.svg?branch=main)](https://coveralls.io/github/andrewronscki/notification-service?branch=main)
 
 ---
 
